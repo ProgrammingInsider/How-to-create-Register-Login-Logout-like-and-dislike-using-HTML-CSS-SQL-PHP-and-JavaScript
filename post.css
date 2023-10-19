@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #18191A;
+}
+
+
+main{
+    width: 35%;
+    margin: 30px auto;
+}
+
+.post_card{
+    width: 100%;
+    background-color: #242526;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.post_card .header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    padding: 8px;
+    line-height: .8em;
+}
+
+.post_card .header .profile_image{
+    width: 35px;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.post_card .header .header_name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post_card .header .header_name p{
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.post_card .header .header_name div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.post_card .header div span{
+    margin: 0 7px;
+    font-size: 1.1rem;
+}
+
+.post_card .image{
+    width: 100%;
+    height: 300px;
+}
+
+.post_card .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post_card .reaction{
+    width: 100%;
+    padding: 8px;
+}
+
+.post_card .reaction .status{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_card .reaction .icons{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 8px;
+}
+
+.post_card .reaction .icons div{
+    cursor: pointer;
+}
+
+.post_card .reaction .icons .liked i{
+    color: #1971ED;
+}
+
+.post_card .reaction div{
+    padding: 4px 0;
+}
+
+.post_card .reaction div div{
+    font-size: 1.5rem;
+}
+
+.post_card .comment_section{
+    width: 100%;
+    padding: 4px;
+}
+
+.post_card .comment_section form{
+    display: flex;
+    width: 100%;
+}
+
+.post_card .comment_section form input{
+    border: none;
+    outline: none;
+    background-color: #3A3B3C;
+    border-radius: 40px;
+    padding: 5px;
+    width: 100%;
+}
+
+.post_card .comment_section form button{
+    background-color: #3A3B3C;
+    padding: 8px 8px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: .9em;
+}
+
+.post_card .reply{
+    padding: 10px;
+}
+
+.post_card .reply .each_reply{
+    display: flex;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.post_card .reply .comment_image{
+    width: 30px;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.post_card .reply .each_reply .comment_note{
+    background-color: #3A3B3C;
+    padding: 8px;
+    border-radius: 25px;
+    line-height: 1.5rem;
+}
+
+.post_card .reply .each_reply h3,.comment{
+    width: auto;
+    font-size: 1.2rem;
+}
+
+.post_card .reply .each_reply .comment{
+    margin-top: 10px;
+}
+
+.see_all{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
